@@ -38,7 +38,7 @@ function App() {
   return (
     <div className={
       (typeof weather.main != 'undefined') 
-      ? ((weather.main.temp > 35) 
+      ? ((weather.main.temp > 30) 
         ? 'app warn' 
         : 'app') 
       : 'app'
